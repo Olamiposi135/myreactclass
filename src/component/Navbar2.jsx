@@ -10,7 +10,7 @@ const Navbar2 = () => {
         </ul>
       </div>
       <div>
-        <button className="bg-blue-400 px-6 py-2 rounded-md text-white" >Login</button>
+        <button className="bg-blue-400 px-6 py-2 rounded-md text-white font-2xl" >Login</button>
       </div>
     </nav>
   )
