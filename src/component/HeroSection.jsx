@@ -3,16 +3,16 @@ import { FaArrowRight } from "react-icons/fa";
 
 function HeroSection() {
   return (
-    <section className="h-screen flex flex-col justify-center items-center max-w-[1400px] m-auto ">
+    <section className="h-screen flex flex-col justify-center items-center max-w-[1400px] m-auto px-4">
       <div className="text-center space-y-7 w-[90%] m-auto">
-        <p className="text-[#717171] text-capitalize text-[14px] font-bold">
+        <p className="lg:text-[#717171] text-red-400 text-capitalize text-[14px] font-bold">
           ALL-IN-ONE MARKETING SOFTWARE
         </p>
-    <h1 className="text-[62px] font-bold leading-tight">
+    <h1 className="lg:text-[62px] text-[42px] font-bold leading-tight">
           Send emails, automate marketing,
         monetize content – in one place
      </h1>
-      <p className="text-[18px] max-w-[800px] m-auto">
+      <p className="lg:text-black text-lime-700 text-[18px] max-w-[800px] m-auto">
           Grow your business and boost revenue with an easy, affordable platform that brings email,
         automation, online courses and paid newsletters together.
         </p>

@@ -1,3 +1,4 @@
+import CardSection from "../component/CardSection";
 import Footer from "../component/Footer";
 import HeroSection from "../component/HeroSection";
 import Navbar from "../component/Navbar";
@@ -8,6 +9,8 @@ function Homepage() {
     <div>
       <Navbar2 />
       <HeroSection />
+      <CardSection />
+      <Footer />
     </div>
   )
 }

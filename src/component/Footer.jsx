@@ -1,16 +1,96 @@
-const Footer = () => {
-  return  (
-    <footer>
-      <div>First Section</div>
-      <div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi recusandae, numquam commodi dolor nulla earum dolore magni ullam eligendi mollitia maxime fugit, beatae vitae eius a reprehenderit molestiae, unde animi.
-          Atque cupiditate perferendis, accusantium similique nihil, necessitatibus quasi id, quam sunt temporibus provident molestiae maiores maxime! Optio, quia illum. Esse, ipsum. Excepturi provident obcaecati illo aliquam doloremque impedit, iste dolores.
-          Deleniti, quod possimus recusandae atque facere, exercitationem odio non magni maxime aut dolorum quaerat libero quisquam accusantium autem quae sint asperiores corporis esse! Earum nam aut molestiae odio assumenda beatae.
-        </p>
+import { FaFacebookF } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa";
+import { FaPinterest } from "react-icons/fa";
+import { SiLinktree } from "react-icons/si";
+import { GiWorld } from "react-icons/gi";
+import { IoAccessibility } from "react-icons/io5";
+import { FaToggleOff } from "react-icons/fa";
+
+
+
+
+
+
+
+
+export default function Footer() {
+  return (
+    <section className=" max-w-[1180px] m-auto border-t-2 border-[#f1eeee] " >
+      <div className=" flex  justify-center items-center  justify-between gap-10  py-10 px-5">
+      <div className="my-[10px]">
+        <h2 className="font-bold text-[20px] mb-5">Get the GetResponse App</h2>
+
+        <ul className="flex gap-4">
+          <li>
+            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="117" height="42" viewBox="0 0 234 84"><defs><clipPath id="a661a_a"><path fill="none" d="M0 0h234v84H0z" data-name="Rectangle 325"></path></clipPath><clipPath id="a661a_b"><path fill="none" d="M27.501 21.19h178.997v41.619H27.501z" data-name="Rectangle 578"></path></clipPath></defs><g data-name="Group 626"><g data-name="Group 523"><g clip-path="url(#a661a_a)" data-name="Group 522"><rect width="230" height="80" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="4" data-name="Rectangle 324" rx="24" transform="translate(2 2)"></rect></g></g><g clip-path="url(#a661a_b)" data-name="Group 625"><path fill="#fff" d="M83.131 29.855a8.1 8.1 0 0 1-2.68.479 4.1 4.1 0 0 1-4.478-4.4 4.38 4.38 0 0 1 4.241-4.516 4 4 0 0 1 .483.011 5.4 5.4 0 0 1 2.176.4l-.272.919a4.5 4.5 0 0 0-1.929-.376 3.263 3.263 0 0 0-3.5 3.505 3.2 3.2 0 0 0 2.853 3.51 3 3 0 0 0 .513.011 3.7 3.7 0 0 0 1.5-.233v-2.6h-1.781v-.908h2.874Z" data-name="Path 1412"></path><path d="M83.131 29.855a8.1 8.1 0 0 1-2.68.479 4.1 4.1 0 0 1-4.478-4.4 4.38 4.38 0 0 1 4.241-4.516 4 4 0 0 1 .483.011 5.4 5.4 0 0 1 2.176.4l-.272.919a4.5 4.5 0 0 0-1.929-.376 3.263 3.263 0 0 0-3.5 3.505 3.2 3.2 0 0 0 2.853 3.51 3 3 0 0 0 .513.011 3.7 3.7 0 0 0 1.5-.233v-2.6h-1.781v-.908h2.874Z" data-name="Path 1413"></path><path fill="#fff" d="M89.632 26.154h-3.395V29.3h3.779v.944h-4.9V21.52h4.71v.944H86.24v2.759h3.395Z" data-name="Path 1414"></path><path d="M89.632 26.154h-3.395V29.3h3.779v.944h-4.9V21.52h4.71v.944H86.24v2.759h3.395Z" data-name="Path 1415"></path><path fill="#fff" d="M93.608 22.479h-2.655v-.958h6.462v.958h-2.668v7.766h-1.139Z" data-name="Path 1416"></path><path d="M93.608 22.479h-2.655v-.958h6.462v.958h-2.668v7.766h-1.139Z" data-name="Path 1417"></path><path fill="#fff" d="M101.648 21.519h1.126v8.725h-1.126z" data-name="Rectangle 576"></path><path d="M101.648 21.519h1.126v8.725h-1.126z" data-name="Rectangle 577"></path><path fill="#fff" d="M106.661 22.479H104v-.958h6.462v.958H107.8v7.766h-1.136Z" data-name="Path 1418"></path><path d="M106.661 22.479H104v-.958h6.462v.958H107.8v7.766h-1.136Z" data-name="Path 1419"></path><path fill="#fff" d="M122.153 25.792c0 3-1.825 4.594-4.052 4.594-2.3 0-3.921-1.786-3.921-4.426 0-2.77 1.723-4.582 4.053-4.582 2.381 0 3.92 1.826 3.92 4.414m-6.767.142c0 1.862 1.009 3.533 2.782 3.533s2.8-1.643 2.8-3.623c0-1.736-.908-3.548-2.784-3.548s-2.794 1.721-2.794 3.637" data-name="Path 1420"></path><path d="M122.153 25.792c0 3-1.825 4.594-4.052 4.594-2.3 0-3.921-1.786-3.921-4.426 0-2.77 1.723-4.582 4.053-4.582 2.381 0 3.92 1.826 3.92 4.414m-6.767.142c0 1.862 1.009 3.533 2.782 3.533s2.8-1.643 2.8-3.623c0-1.736-.908-3.548-2.784-3.548s-2.794 1.722-2.794 3.638" data-name="Path 1421"></path><path fill="#fff" d="M123.879 30.244v-8.725h1.229l2.795 4.415a24.5 24.5 0 0 1 1.567 2.831l.025-.014c-.1-1.164-.129-2.225-.129-3.585v-3.647h1.061v8.725h-1.144l-2.764-4.426a28 28 0 0 1-1.632-2.912l-.04.013c.065 1.095.092 2.149.092 3.6v3.724Z" data-name="Path 1422"></path><path d="M123.879 30.244v-8.725h1.229l2.795 4.415a24.5 24.5 0 0 1 1.567 2.831l.025-.014c-.1-1.164-.129-2.225-.129-3.585v-3.647h1.061v8.725h-1.144l-2.764-4.426a28 28 0 0 1-1.632-2.912l-.04.013c.065 1.095.092 2.149.092 3.6v3.724Z" data-name="Path 1423"></path><path d="M117.371 43.767a6.571 6.571 0 1 0 6.6 6.571 6.48 6.48 0 0 0-6.384-6.572h-.213m0 10.554a3.8 3.8 0 0 1-3.711-3.891v-.092a3.724 3.724 0 0 1 7.418-.663 3.7 3.7 0 0 1 0 .663 3.8 3.8 0 0 1-3.617 3.98h-.093m-14.39-10.554a6.571 6.571 0 1 0 6.6 6.571 6.48 6.48 0 0 0-6.382-6.572h-.215m0 10.554a3.8 3.8 0 0 1-3.712-3.891v-.092a3.718 3.718 0 1 1 7.417-.541 3.5 3.5 0 0 1 0 .541 3.8 3.8 0 0 1-3.616 3.98h-.092m-17.119-8.534v2.788h6.671a5.8 5.8 0 0 1-1.518 3.5 6.83 6.83 0 0 1-5.147 2.04 7.419 7.419 0 0 1 0-14.836 7.1 7.1 0 0 1 5.023 2l1.971-1.971a9.72 9.72 0 0 0-6.994-2.812 10.207 10.207 0 1 0 0 20.411 9.33 9.33 0 0 0 7.119-2.863 9.22 9.22 0 0 0 2.413-6.521 9 9 0 0 0-.15-1.743Zm70.009 2.175a6.11 6.11 0 0 0-5.625-4.182 6.243 6.243 0 0 0-6.207 6.279c0 .1 0 .195.009.293a6.43 6.43 0 0 0 6.289 6.57h.232A6.54 6.54 0 0 0 156.045 54l-2.245-1.491a3.75 3.75 0 0 1-3.236 1.817 3.34 3.34 0 0 1-3.186-1.992l8.787-3.636Zm-8.961 2.19a3.6 3.6 0 0 1 3.364-3.829h.071a2.55 2.55 0 0 1 2.439 1.394Zm-7.144 6.372h2.888V37.194h-2.888Zm-4.73-11.281h-.1a4.56 4.56 0 0 0-3.46-1.468 6.578 6.578 0 0 0 0 13.142 4.48 4.48 0 0 0 3.46-1.493h.1v.945c0 2.519-1.345 3.858-3.5 3.858a3.64 3.64 0 0 1-3.311-2.339l-2.514 1.045a6.26 6.26 0 0 0 5.825 3.883c3.385 0 6.248-1.992 6.248-6.845v-11.8h-2.738Zm-3.311 9.091a3.77 3.77 0 0 1-3.663-3.877v-.086a3.8 3.8 0 0 1 3.587-4h.072a3.7 3.7 0 0 1 3.513 3.885q.002.062-.008.123a3.67 3.67 0 0 1-3.372 3.95c-.044 0-.088.007-.133.008M169.4 37.195h-6.909v19.317h2.884v-7.318h4.025a6.12 6.12 0 0 0 6.334-5.9v-.1a6.12 6.12 0 0 0-6.237-6h-.1m.074 9.31h-4.1v-6.62h4.1a3.312 3.312 0 0 1 .17 6.622h-.17m17.818-2.774a5.41 5.41 0 0 0-5.147 2.957l2.559 1.069a2.73 2.73 0 0 1 2.636-1.418 2.775 2.775 0 0 1 3.03 2.49v.2a6.4 6.4 0 0 0-3.009-.747c-2.758 0-5.567 1.516-5.567 4.349 0 2.584 2.262 4.249 4.8 4.249a4.07 4.07 0 0 0 3.677-1.888h.1v1.49h2.784v-7.409c0-3.43-2.559-5.344-5.865-5.344m-.348 10.587c-.944 0-2.262-.472-2.262-1.643 0-1.492 1.643-2.062 3.057-2.062a5.14 5.14 0 0 1 2.629.645 3.5 3.5 0 0 1-3.43 3.057m16.352-10.163-3.305 8.374h-.1l-3.429-8.374h-3.106l5.147 11.7-2.931 6.511h3.007l7.932-18.211Zm-25.961 12.361h2.883V37.2h-2.883Z" data-name="Path 1424"></path><path fill="#ea4335" d="M44.1 40.17 27.654 57.63v.01a4.448 4.448 0 0 0 6.546 2.68l.052-.03L52.77 49.6Z" data-name="Path 1425"></path><path fill="#fbbc04" d="m60.746 37.2-.016-.01-8-4.635-9.007 8.015 9.042 9.03 7.951-4.589a4.446 4.446 0 0 0 .027-7.818" data-name="Path 1426"></path><path fill="#4285f4" d="M27.652 24.493a4.4 4.4 0 0 0-.15 1.143v30.853a4.3 4.3 0 0 0 .151 1.143L44.67 40.618Z" data-name="Path 1427"></path><path fill="#34a853" d="m44.224 41.061 8.513-8.512-18.493-10.724a4.452 4.452 0 0 0-6.59 2.662Z" data-name="Path 1428"></path></g></g></svg></a></li>
+            
+            <li >
+              <a  href="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="117" height="42" viewBox="0 0 234 84"><defs><clipPath id="f9ef3_a"><path fill="none" d="M0 0h234v84H0z" data-name="Rectangle 331"></path></clipPath></defs><g clip-path="url(#f9ef3_a)" data-name="Group 526"><rect width="230" height="80" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="4" data-name="Rectangle 329" rx="24" transform="translate(2 2)"></rect><path d="M58.924 40.9a8.23 8.23 0 0 1 3.915-6.9 8.42 8.42 0 0 0-6.63-3.584c-2.79-.292-5.494 1.671-6.915 1.671-1.448 0-3.637-1.643-5.995-1.593a8.83 8.83 0 0 0-7.429 4.531c-3.214 5.564-.818 13.739 2.26 18.235 1.54 2.2 3.338 4.661 5.695 4.573 2.3-.1 3.164-1.468 5.946-1.468 2.756 0 3.562 1.468 5.966 1.413 2.472-.04 4.029-2.212 5.515-4.434a18.2 18.2 0 0 0 2.52-5.137 7.94 7.94 0 0 1-4.85-7.308" data-name="Path 311"></path><path d="M54.386 27.46a8.1 8.1 0 0 0 1.852-5.8 8.23 8.23 0 0 0-5.328 2.757A7.7 7.7 0 0 0 49.009 30a6.81 6.81 0 0 0 5.377-2.542" data-name="Path 312"></path><path d="M88.051 52.259h-7.863L78.3 57.833h-3.331l7.448-20.627h3.461l7.448 20.627h-3.388ZM81 49.686h6.233l-3.072-9.049h-.087Z" data-name="Path 313"></path><path d="M109.408 50.315c0 4.673-2.5 7.677-6.277 7.677a5.1 5.1 0 0 1-4.731-2.629h-.07v7.451h-3.089v-20.02h2.989v2.5h.057a5.34 5.34 0 0 1 4.79-2.66c3.816 0 6.332 3.018 6.332 7.678m-3.176 0c0-3.046-1.574-5.047-3.975-5.047-2.358 0-3.942 2.045-3.942 5.047 0 3.031 1.585 5.06 3.942 5.06 2.4 0 3.975-1.988 3.975-5.06" data-name="Path 314"></path><path d="M125.962 50.315c0 4.673-2.5 7.677-6.277 7.677a5.1 5.1 0 0 1-4.732-2.629h-.071v7.451h-3.087v-20.02h2.988v2.5h.057a5.34 5.34 0 0 1 4.788-2.66c3.818 0 6.334 3.018 6.334 7.678m-3.176 0c0-3.046-1.574-5.047-3.975-5.047-2.358 0-3.942 2.045-3.942 5.047 0 3.031 1.585 5.06 3.942 5.06 2.4 0 3.978-1.987 3.978-5.059Z" data-name="Path 315"></path><path d="M136.9 52.087c.229 2.046 2.217 3.39 4.929 3.39 2.6 0 4.474-1.344 4.474-3.188 0-1.6-1.13-2.56-3.8-3.217l-2.673-.644c-3.788-.916-5.548-2.687-5.548-5.561 0-3.559 3.1-6 7.506-6 4.359 0 7.347 2.445 7.447 6h-3.117c-.186-2.059-1.888-3.3-4.375-3.3s-4.188 1.257-4.188 3.088c0 1.458 1.087 2.316 3.745 2.973l2.273.558c4.233 1 5.991 2.7 5.991 5.719 0 3.86-3.074 6.277-7.963 6.277-4.575 0-7.667-2.36-7.864-6.092Z" data-name="Path 316"></path><path d="M156.231 39.236V42.8h2.861v2.44h-2.861v8.291c0 1.288.573 1.888 1.83 1.888a10 10 0 0 0 1.015-.071v2.43a8.4 8.4 0 0 1-1.714.143c-3.045 0-4.233-1.144-4.233-4.06V45.24h-2.19V42.8h2.19v-3.56Z" data-name="Path 317"></path><path d="M160.748 50.315c0-4.733 2.787-7.706 7.133-7.706s7.135 2.973 7.135 7.706-2.76 7.706-7.135 7.706-7.133-2.957-7.133-7.706m11.122 0c0-3.246-1.488-5.162-3.99-5.162s-3.987 1.931-3.987 5.162c0 3.259 1.487 5.161 3.987 5.161s3.99-1.903 3.99-5.161" data-name="Path 318"></path><path d="M177.56 42.795h2.94v2.561h.071a3.59 3.59 0 0 1 3.614-2.718 4.7 4.7 0 0 1 1.058.115v2.887a4.3 4.3 0 0 0-1.386-.187 3.11 3.11 0 0 0-3.235 2.982 3 3 0 0 0 .017.479v8.921h-3.087Z" data-name="Path 319"></path><path d="M199.485 53.416c-.416 2.731-3.075 4.6-6.477 4.6-4.375 0-7.09-2.93-7.09-7.633s2.73-7.777 6.961-7.777c4.162 0 6.777 2.859 6.777 7.419v1.058h-10.623v.186a3.917 3.917 0 0 0 3.556 4.248 4 4 0 0 0 .49.013 3.4 3.4 0 0 0 3.473-2.116Zm-10.437-4.49h7.519a3.614 3.614 0 0 0-3.4-3.812h-.006c-.092 0-.186-.006-.278 0a3.81 3.81 0 0 0-3.833 3.781v.036" data-name="Path 320"></path><path d="M80.614 21.679a4.39 4.39 0 0 1 4.686 4.064 4.5 4.5 0 0 1-.024.865c0 3.166-1.712 4.986-4.665 4.986h-3.58v-9.915Zm-2.04 8.51h1.868a3.117 3.117 0 0 0 3.3-2.924 3.2 3.2 0 0 0-.028-.641 3.125 3.125 0 0 0-2.67-3.521 3 3 0 0 0-.6-.024h-1.87Z" data-name="Path 321"></path><path d="M87.016 27.847a3.545 3.545 0 0 1 7.057-.675 3.6 3.6 0 0 1 0 .675 3.545 3.545 0 0 1-7.057.687 4 4 0 0 1 0-.687m5.539 0c0-1.621-.729-2.569-2.006-2.569s-2.006.948-2.006 2.569.722 2.575 2.006 2.575 2.006-.947 2.006-2.575" data-name="Path 322"></path><path d="M103.451 31.591h-1.533l-1.546-5.509h-.116l-1.54 5.509H97.2l-2.061-7.48h1.5l1.34 5.708h.109l1.534-5.708h1.416l1.533 5.708h.116l1.334-5.708h1.477Z" data-name="Path 323"></path><path d="M107.239 24.11h1.424v1.19h.109A2.24 2.24 0 0 1 111 23.965a2.436 2.436 0 0 1 2.59 2.782v4.843h-1.479v-4.471c0-1.2-.521-1.8-1.614-1.8a1.717 1.717 0 0 0-1.794 1.634 2 2 0 0 0 .007.262V31.6h-1.475Z" data-name="Path 324"></path><path d="M115.943 21.19h1.476v10.4h-1.476z" data-name="Rectangle 330"></path><path d="M119.471 27.847a3.545 3.545 0 0 1 7.057-.675 3.6 3.6 0 0 1 0 .675 3.545 3.545 0 1 1-7.047.786c0-.033-.006-.067-.01-.1a4 4 0 0 1 0-.686m5.538 0c0-1.621-.727-2.569-2.005-2.569S121 26.226 121 27.847s.722 2.575 2.006 2.575 2-.947 2-2.575" data-name="Path 325"></path><path d="M128.083 29.475c0-1.348 1-2.123 2.782-2.234l2.026-.116v-.646c0-.79-.522-1.235-1.533-1.235-.824 0-1.4.3-1.559.831h-1.424c.151-1.285 1.36-2.109 3.056-2.109 1.875 0 2.933.934 2.933 2.519v5.1h-1.424v-1.046h-.117a2.52 2.52 0 0 1-2.246 1.174A2.26 2.26 0 0 1 128.1 29.7a3 3 0 0 1-.012-.224m4.808-.64v-.624l-1.827.116c-1.029.07-1.5.419-1.5 1.08s.584 1.064 1.387 1.064a1.76 1.76 0 0 0 1.933-1.574v-.062" data-name="Path 326"></path><path d="M136.3 27.847c0-2.364 1.215-3.862 3.105-3.862A2.47 2.47 0 0 1 141.7 25.3h.109v-4.11h1.477v10.4h-1.414v-1.181h-.117a2.6 2.6 0 0 1-2.349 1.305c-1.9 0-3.105-1.5-3.105-3.866m1.525 0c0 1.586.747 2.541 2 2.541s2.013-.969 2.013-2.534-.777-2.541-2.013-2.541-2 .96-2 2.533Z" data-name="Path 327"></path><path d="M149.391 27.847a3.545 3.545 0 0 1 7.047-.772l.009.1a3.6 3.6 0 0 1 0 .675 3.545 3.545 0 0 1-7.056.687 4 4 0 0 1 0-.687m5.538 0c0-1.621-.728-2.569-2.006-2.569s-2.005.948-2.005 2.569.722 2.575 2.005 2.575 2.006-.947 2.006-2.575" data-name="Path 328"></path><path d="M158.43 24.11h1.424v1.19h.109a2.24 2.24 0 0 1 2.232-1.333 2.436 2.436 0 0 1 2.59 2.782v4.841h-1.477v-4.471c0-1.2-.521-1.8-1.614-1.8a1.717 1.717 0 0 0-1.794 1.634 2 2 0 0 0 .007.262V31.6h-1.476Z" data-name="Path 329"></path><path d="M173.123 22.247v1.9h1.621v1.239h-1.621v3.847c0 .783.323 1.127 1.058 1.127a5 5 0 0 0 .564-.036v1.23a4.7 4.7 0 0 1-.8.076c-1.643 0-2.3-.577-2.3-2.02v-4.223h-1.187v-1.239h1.187v-1.9Z" data-name="Path 330"></path><path d="M176.761 21.19h1.462v4.121h.118a2.3 2.3 0 0 1 2.28-1.339 2.464 2.464 0 0 1 2.6 2.327 2.6 2.6 0 0 1-.018.461v4.835h-1.483v-4.47c0-1.195-.556-1.8-1.6-1.8a1.753 1.753 0 0 0-1.885 1.6 2 2 0 0 0 0 .3v4.374h-1.474Z" data-name="Path 331"></path><path d="M191.8 29.571a3.04 3.04 0 0 1-3.241 2.165 3.4 3.4 0 0 1-3.486-3.3 3.4 3.4 0 0 1 .03-.554A3.454 3.454 0 0 1 188.077 24a3.5 3.5 0 0 1 .48-.03c2.081 0 3.336 1.424 3.336 3.771v.515h-5.281v.083a1.98 1.98 0 0 0 1.8 2.136c.062 0 .125.006.188.006a1.79 1.79 0 0 0 1.78-.907Zm-5.194-2.41h3.777a1.8 1.8 0 0 0-1.664-1.933 2 2 0 0 0-.176 0 1.913 1.913 0 0 0-1.937 1.889Z" data-name="Path 332"></path></g></svg>
+                </a>
+              </li>
+            </ul>
+
       </div>
-    </footer>
+
+      <div className="my-[10px]">
+        <h2 className="font-bold text-[20px] mb-8" >Follow us</h2>
+          <ul className="flex gap-4 font-bold text-[20px]">
+            <li className="hover:text-[#00a2ff]"> <a href=""><FaFacebookF /></a> </li>
+            <li className="hover:text-[#00a2ff]"><a href=""><FaInstagram /></a></li>
+            <li className="hover:text-[#00a2ff]"><a href=""><FaLinkedinIn /></a></li>
+            <li className="hover:text-[#00a2ff]"><a href=""><FaYoutube /></a></li>
+            <li className="hover:text-[#00a2ff]"><a href=""><FaPinterest /></a></li>
+            <li className="hover:text-[#00a2ff]"><a href=""><SiLinktree /></a></li>
+          </ul>
+          
+        </div>
+
+      <div className="my-[10px]">
+        <h2 className="font-bold text-[20px] mb-5">Change the language</h2>
+        <select name="Language" id="" className=" pl-5 pr-[120px] py-3 text-[16px] font-bold rounded-2xl shadow-lg cursor-pointer  outline-none hover:text-[#00a2ff]">
+          <option value="" className="rounded-2xl "><span><GiWorld className="inline-block"/></span>
+          English</option>
+          <option value="" className="font-bold hover:text-[#00a2ff]">DE Deutsch</option>
+          <option value="">EN English</option>
+          
+          <option value="">ES Espanol</option>
+          <option value=""></option>
+          <option value=""></option>
+          <option value=""></option>
+        </select>
+      </div>
+
+      <div className="my-[10px]">
+        <h2 className="font-bold text-[20px] mb-[30px]">Turn on high contrast</h2>
+         <ul className="flex gap-4">
+          <li>
+          <IoAccessibility className=" p-1 font-bold text-2xl text-white bg-black w-8 h-7 rounded-full" />
+          </li>
+          <li>
+          <FaToggleOff className="text-3xl"/>
+          </li>
+         </ul>
+       </div> 
+      </div>
+
+
+      <div className="flex justify-between px-5 pb-[30px]">
+      <p><img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/GetResponse_Logo.png" alt="" className="w-5 h-3 mr-2 inline-block" /> <span className="text-[14px]">Copyright © 2025 GetResponse. Email marketing & beyond®</span></p>
+
+      <ul className="flex gap-4 items-center text-[14px] ">
+        <li className="cursor-pointer hover:text-[#00a2ff]">Privacy Policy</li>
+        <li className="cursor-pointer hover:text-[#00a2ff]">Anti-Spam Policy</li>
+        <li className="cursor-pointer hover:text-[#00a2ff]">Terms of Service</li>
+      </ul>
+      </div>
+       
+</section>
+      
+
+
+    
   )
 }
-
-export default Footer;
