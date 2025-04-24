@@ -17,8 +17,8 @@ import { FaToggleOff } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <section className=" max-w-[1180px] m-auto border-t-2 border-[#f1eeee] " >
-      <div className=" flex  justify-center items-center  justify-between gap-10  py-10 px-5">
+    <section className="flex flex-col max-w-[1180px] m-auto border-t-2 border-[#f1eeee]  mt-[120px] " >
+      <div className=" flex flex-col lg:flex-row   justify-between gap-6 lg:gap-10  py-10 px-3 lg:px-5">
       <div className="my-[10px]">
         <h2 className="font-bold text-[20px] mb-5">Get the GetResponse App</h2>
 
@@ -77,10 +77,19 @@ export default function Footer() {
       </div>
 
 
-      <div className="flex justify-between px-5 pb-[30px]">
-      <p><img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/GetResponse_Logo.png" alt="" className="w-5 h-3 mr-2 inline-block" /> <span className="text-[14px]">Copyright © 2025 GetResponse. Email marketing & beyond®</span></p>
+      <div className="flex flex-col lg:flex-row justify-between px-5 pb-[30px] gap-4">
 
-      <ul className="flex gap-4 items-center text-[14px] ">
+      <div>
+      <p className="block lg:inline-block text-center lg:text-left">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/GetResponse_Logo.png" alt="" className="w-5 h-3 mr-2 inline-block " />
+      </p>
+
+        <p className="text-[14px] inline-block">Copyright © 2025 GetResponse. Email marketing & beyond®</p>
+
+      </div>
+      
+
+      <ul className="flex gap-5 items-center text-[14px] ">
         <li className="cursor-pointer hover:text-[#00a2ff]">Privacy Policy</li>
         <li className="cursor-pointer hover:text-[#00a2ff]">Anti-Spam Policy</li>
         <li className="cursor-pointer hover:text-[#00a2ff]">Terms of Service</li>
