@@ -84,7 +84,7 @@ export default function Footer() {
       <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/GetResponse_Logo.png" alt="" className="w-5 h-3 mr-2 inline-block " />
       </p>
 
-        <p className="text-[14px] inline-block">Copyright © 2025 GetResponse. Email marketing & beyond®Kay</p>
+        <p className="text-[14px] inline-block">Copyright © 2025 GetResponse. Email marketing & beyond®</p>
 
       </div>
       
