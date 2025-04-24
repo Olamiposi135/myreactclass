@@ -1,8 +1,8 @@
-import CardSection from "../components/CardSection";
-import Footer from "../components/Footer";
-import HeroSection from "../components/HeroSection";
+import CardSection from "../component/CardSection";
+import Footer from "../component/Footer";
+import HeroSection from "../component/HeroSection";
 
-import Navbar2 from "../components/Navbar2";
+import Navbar2 from "../component/Navbar2";
 
 function Homepage() {
   return ( 
