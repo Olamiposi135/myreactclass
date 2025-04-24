@@ -15,13 +15,13 @@ export default function CardSection() {
           <h1 className="font-bold text-5xl">99%</h1> <br />
           <p className="text-[18px]"><b>deliverability rate</b> for 160+ countries</p>
         </div>
-        <div className="text-center md:text-left flex-1 mt-2 w-full p-5 flex-1">
+        <div className="text-center md:text-left flex-1 mt-2 w-full p-5 ">
           <h1 className="font-bold text-5xl">350k+</h1> <br />
           <p className="text-[18px]"><b>customers worldwide </b> 
             trust us with their email
             marketing</p>
         </div>
-        <div className="text-center md:text-left flex-1 mt-2 w-full p-5 flex-1">
+        <div className="text-center md:text-left flex-1 mt-2 w-full p-5 ">
           <h1 className="font-bold text-5xl">24/7</h1> <br />
           <p className="text-[18px]">support from a <b>5-star rated</b> Customer Success Team</p>
         </div>
