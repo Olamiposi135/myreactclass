@@ -19,7 +19,7 @@ function HeroSection() {
         
 
 
-    <button className="text-xl font-bold px-10 py-4 rounded-3xl w-fit border-2 border-[#e3d500] bg-[#fbe30c] hover:bg-[#00a2ff] hover:text-white hover:border-[#2c85d5] whitespace-nowrap">  Start 30-day FREE trial <FaArrowRight className="inline-block mr-2 mb-1" />  
+    <button className="text-lg lg:text-xl font-bold px-7 lg:px-10 py-4 rounded-3xl w-fit border-2 border-[#e3d500] bg-[#fbe30c] hover:bg-[#00a2ff] hover:text-white hover:border-[#2c85d5] whitespace-nowrap">  Start 30-day FREE trial <FaArrowRight className="inline-block mr-2 mb-1" />  
     </button>
     <p className="text-xs ">
     Try us free  |  No credit card required  |  Cancel anytime
