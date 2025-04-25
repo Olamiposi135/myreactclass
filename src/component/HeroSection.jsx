@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 function HeroSection() {
   return (
-    <section className="h-screen flex flex-col justify-center items-center max-w-[1400px] m-auto px-4">
+    <section className="h-screen flex flex-col justify-center items-center max-w-[1400px] m-auto px-4 mt-10 lg:mt-0">
       <div className="text-center space-y-7 w-[90%] m-auto">
         <p className="lg:text-[#717171] text-red-400 text-capitalize text-[14px] font-bold">
           ALL-IN-ONE MARKETING SOFTWARE
