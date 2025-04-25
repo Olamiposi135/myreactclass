@@ -77,7 +77,7 @@ export default function Footer() {
       </div>
 
 
-      <div className="flex flex-col lg:flex-row justify-between px-5 pb-[30px] gap-4">
+      <div className="flex flex-col lg:flex-row justify-between px-3 lg:px-5 pb-[30px] gap-4">
 
       <div>
       <p className="block lg:inline-block text-center lg:text-left">
