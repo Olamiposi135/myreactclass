@@ -84,12 +84,12 @@ export default function Footer() {
       <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/GetResponse_Logo.png" alt="" className="w-5 h-3 mr-2 inline-block " />
       </p>
 
-        <p className="text-[14px] inline-block">Copyright © 2025 GetResponse. Email marketing & beyond®</p>
+        <p className="text-[12px] lg:text-[14px] inline-block">Copyright © 2025 GetResponse. Email marketing & beyond®</p>
 
       </div>
       
 
-      <ul className="flex gap-3 lg:gap-5 items-center text-[12px] lg:text-[14px] ">
+      <ul className="flex gap-5 items-center text-[12px] lg:text-[14px] ">
         <li className="cursor-pointer hover:text-[#00a2ff]">Privacy Policy</li>
         <li className="cursor-pointer hover:text-[#00a2ff]">Anti-Spam Policy</li>
         <li className="cursor-pointer hover:text-[#00a2ff]">Terms of Service</li>
