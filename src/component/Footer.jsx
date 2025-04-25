@@ -89,7 +89,7 @@ export default function Footer() {
       </div>
       
 
-      <ul className="flex gap-5 items-center text-[12px] lg:text-[14px] ">
+      <ul className="flex gap-5 items-center text-[12px] lg:text-[14px] justify-center lg:justify-end">
         <li className="cursor-pointer hover:text-[#00a2ff]">Privacy Policy</li>
         <li className="cursor-pointer hover:text-[#00a2ff]">Anti-Spam Policy</li>
         <li className="cursor-pointer hover:text-[#00a2ff]">Terms of Service</li>
