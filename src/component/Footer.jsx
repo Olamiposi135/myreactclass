@@ -36,7 +36,7 @@ export default function Footer() {
       </div>
 
       <div className="my-[10px]">
-        <h2 className="font-bold text-[20px] mb-8" >Follow us</h2>
+        <h2 className="font-bold text-[20px] mb-5" >Follow us</h2>
           <ul className="flex gap-4 font-bold text-[20px]">
             <li className="hover:text-[#00a2ff]"> <a href=""><FaFacebookF /></a> </li>
             <li className="hover:text-[#00a2ff]"><a href=""><FaInstagram /></a></li>
@@ -57,14 +57,14 @@ export default function Footer() {
           <option value="">EN English</option>
           
           <option value="">ES Espanol</option>
-          <option value=""></option>
+          <option value="">FR French</option>
           <option value=""></option>
           <option value=""></option>
         </select>
       </div>
 
       <div className="my-[10px]">
-        <h2 className="font-bold text-[20px] mb-[30px]">Turn on high contrast</h2>
+        <h2 className="font-bold text-[20px] mb-5">Turn on high contrast</h2>
          <ul className="flex gap-4">
           <li>
           <IoAccessibility className=" p-1 font-bold text-2xl text-white bg-black w-8 h-7 rounded-full" />
