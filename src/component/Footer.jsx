@@ -77,14 +77,14 @@ export default function Footer() {
       </div>
 
 
-      <div className="flex flex-col lg:flex-row justify-between px-3 lg:px-5 pb-[30px] gap-4">
+      <div className="text-green-900 lg:text-black flex flex-col lg:flex-row justify-between px-3 lg:px-5 pb-[30px] gap-4">
 
       <div>
       <p className="block lg:inline-block text-center lg:text-left">
       <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/GetResponse_Logo.png" alt="" className="w-5 h-3 mr-2 inline-block " />
       </p>
 
-        <p className="block text-[12px] lg:text-[14px] lg:inline-block text-center">Copyright © 2025 GetResponse. Email marketing & beyond®</p>
+        <p className="block  text-[12px] lg:text-[14px] lg:inline-block text-center">Copyright © 2025 GetResponse. Email marketing & beyond®</p>
 
       </div>
       
