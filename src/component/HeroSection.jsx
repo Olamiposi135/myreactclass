@@ -1,7 +1,15 @@
+import { useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
 
 
 function HeroSection() {
+ 
+  const [isSubscribe, setSubscription] = useState(false)
+  const subscribe = () => {
+    setSubscription(true)
+  }
+  
+
   return (
     <section className="h-screen flex flex-col justify-center items-center max-w-[1400px] m-auto px-4 mt-10 lg:mt-0">
       <div className="text-center space-y-7 w-[90%] m-auto">
@@ -19,8 +27,11 @@ function HeroSection() {
         
 
 
-    <button className="text-lg lg:text-xl font-bold px-6 lg:px-10 py-4 rounded-3xl w-fit border-2 border-[#e3d500] bg-[#fbe30c] hover:bg-[#00a2ff] hover:text-white hover:border-[#2c85d5] whitespace-nowrap">  Start 30-day FREE trial <FaArrowRight className="inline-block mr-2 mb-1" />  
+    
+      <button onClick={subscribe} className="text-lg lg:text-xl font-bold px-6 lg:px-10 py-4 rounded-3xl w-fit border-2 border-[#e3d500] bg-[#fbe30c] hover:bg-[#00a2ff] hover:text-white hover:border-[#2c85d5] whitespace-nowrap">  {isSubscribe ? "You are now Subcribed" : "Start 30-days Free trial"} 
+      <FaArrowRight className="inline-block mr-2 mb-1" />  
     </button>
+    
     <p className="text-xs ">
     Try us free  |  No credit card required  |  Cancel anytime
     </p>
