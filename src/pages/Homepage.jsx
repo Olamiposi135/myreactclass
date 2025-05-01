@@ -4,6 +4,7 @@ import HeroSection from "../component/HeroSection";
 import LeaderCard from "../component/LeaderCard";
 
 import Navbar2 from "../component/Navbar2";
+import Percentage from "../component/Percentage";
 import StaffCard from "../component/StaffCard";
 
 function Homepage() {
@@ -11,6 +12,10 @@ function Homepage() {
     <div>
       <Navbar2 />
       <HeroSection />
+      <div className=" flex  max-w-[1000px] mx-auto ">
+        <Percentage />
+      </div>
+
       <div className=" flex flex-col md:flex-row  max-w-[1140px] mx-auto  p-5  my-20 space-x-6 ">
         <CardSection
           image="https://us-wd.gr-cdn.com/customers/sites/16/2024/07/1019/LogoECSPublishingGroup1-removebg-preview-1-e1721125158123.png"
