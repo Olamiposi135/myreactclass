@@ -26,7 +26,7 @@ const LeaderCard = () => {
     <div>
       <h1 className=" text-3xl font-bold ">OUR LEADERS</h1>
 
-      <section className="flex  m-auto my-5 py-10">
+      <section className="flex  m-auto my-5 py-10 flex-col md:flex-row items-center">
         {leaderList.map((leader) => (
           <div className=" max-w-xs bg-white rounded-2xl shadow-md overflow-hidden m-4 ">
             <img

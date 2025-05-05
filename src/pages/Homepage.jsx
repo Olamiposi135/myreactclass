@@ -16,7 +16,7 @@ function Homepage() {
         <Percentage />
       </div>
 
-      <div className=" flex flex-col md:flex-row  max-w-[1140px] mx-auto  p-5  my-20 space-x-6 ">
+      <div className=" flex flex-col md:flex-row items-center max-w-[1140px] mx-auto  p-5  my-20 space-x-6 ">
         <CardSection
           image="https://us-wd.gr-cdn.com/customers/sites/16/2024/07/1019/LogoECSPublishingGroup1-removebg-preview-1-e1721125158123.png"
           percent="10% list growth"
@@ -43,7 +43,7 @@ function Homepage() {
         />
       </div>
 
-      <div className="flex max-w-[1000px] mx-auto">
+      <div className="flex flex-col md:flex-row max-w-[1000px] mx-auto">
         <StaffCard
           name="Segun"
           position="Manager"
@@ -63,7 +63,7 @@ function Homepage() {
           image="https://randomuser.me/api/portraits/men/22.jpg"
         />
       </div>
-      <div className="flex w-full mx-auto">
+      <div className="flex w-full mx-auto flex-col md:flex-row">
         <LeaderCard />
       </div>
       <Footer />

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FiEye } from "react-icons/fi";
 import { FiEyeOff } from "react-icons/fi";
+import { Link } from "react-router";
 
 const Loginpage = () => {
   const [email, setEmail] = useState("");
@@ -89,9 +90,11 @@ const Loginpage = () => {
             Forgot password?
           </a>
           |
-          <a href="#" className="hover:underline ml-2">
-            Create an account
-          </a>
+          <Link to="/reg">
+            <a href="" className="hover:underline ml-2">
+              Create an account
+            </a>
+          </Link>
         </div>
       </div>
     </div>

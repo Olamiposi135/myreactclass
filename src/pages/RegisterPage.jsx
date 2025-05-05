@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FiEye } from "react-icons/fi";
 import { FiEyeOff } from "react-icons/fi";
+import { Link } from "react-router";
 
 const RegisterPage = () => {
   const [email, setEmail] = useState("");
@@ -32,7 +33,7 @@ const RegisterPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center">
+    <div className="min-h-screen bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center px-4">
       <div className="bg-white p-8 rounded-2xl shadow-2xl w-full max-w-md">
         {success && (
           <h3 className="text-green-700 text-2xl">
@@ -130,9 +131,11 @@ const RegisterPage = () => {
             Forgot password?
           </a>
           |
-          <a href="#" className="hover:underline ml-2">
-            Already have an account ? Sign in
-          </a>
+          <Link to="/login">
+            <a href="" className="hover:underline ml-2">
+              Already have an account ? Sign in
+            </a>
+          </Link>
         </div>
       </div>
     </div>
