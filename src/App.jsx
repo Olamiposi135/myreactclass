@@ -1,3 +1,4 @@
+import { Route, Routes } from "react-router";
 import "./App.css";
 
 import Homepage from "./pages/Homepage";
@@ -7,9 +8,9 @@ import User from "./pages/User";
 
 function App() {
   return (
-    <div>
-      <RegisterPage />
-    </div>
+    <Routes>
+      <Route path="/login" element={<Loginpage />} />
+    </Routes>
   );
 }
 
