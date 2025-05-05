@@ -3,6 +3,7 @@ import { IoIosArrowForward } from "react-icons/io";
 import { IoIosArrowDown } from "react-icons/io";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { RiCloseLargeLine } from "react-icons/ri";
+import { Link } from "react-router";
 
 const Navbar2 = () => {
   const [isLogin, setIsLogin] = useState(false);
@@ -68,9 +69,11 @@ const Navbar2 = () => {
           <p className="p-2  font-bold text-xl">Hi {loginName} !</p>
         ) : (
           <div onClick={Login} className="lg:flex hidden items-center gap-5">
-            <button className="px-3 py-2 border-2 font-bold rounded-xl hover:border-[#00a2ff] hover:text-[#00a2ff]">
-              Log in
-            </button>
+            <Link to="/login">
+              <button className="px-3 py-2 border-2 font-bold rounded-xl hover:border-[#00a2ff] hover:text-[#00a2ff]">
+                Log in
+              </button>
+            </Link>
             <button className="px-3 py-2 border-2 bg-[#00a2ff] border-[#00a2ff] text-white rounded-xl font-bold hover:bg-white hover:text-[#00a2ff]">
               Sign up free
             </button>
@@ -91,9 +94,11 @@ const Navbar2 = () => {
               Book a demo
             </li>
           </ul>
-          <button className="  font-bold text-2xl  hover:text-[#00a2ff]">
-            Log in
-          </button>
+          <Link to="/login">
+            <button className="  font-bold text-2xl  hover:text-[#00a2ff]">
+              Log in
+            </button>
+          </Link>
         </nav>
       )}
     </>

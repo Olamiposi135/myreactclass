@@ -25,7 +25,7 @@ const Loginpage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center">
+    <div className="min-h-screen bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center px-5">
       <div className="bg-white p-8 rounded-2xl shadow-2xl w-full max-w-md">
         {success && (
           <h3 className="text-green-700 text-2xl">
