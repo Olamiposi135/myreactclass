@@ -28,7 +28,7 @@ const Percentage = () => {
     <div className="max-w-[1240px] mx-auto my-4 ">
       <h1 className="font-bold text-3xl text-center mb-16">Why GetResponse?</h1>
 
-      <section className="flex flex-col md:flex-row  md:space-x-5 gap-6 mb:my-0">
+      <section className="flex flex-col text-center md:text-left md:flex-row  md:space-x-5 gap-6 mb:my-0">
         {percentRate.map((response) => (
           <div className="max-w-sm flex-1">
             <h1 className="font-bold text-[50px] mb:2 md:mb-3">

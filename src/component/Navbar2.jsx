@@ -40,11 +40,13 @@ const Navbar2 = () => {
           </svg>
 
           <ul className="lg:flex hidden gap-4 font-bold ">
-            <li className="flex items-center gap-1 hover:text-[#00a2ff] cursor-pointer">
-              Product <IoIosArrowForward className="text-xs mt-1" />
-            </li>
+            <Link to="/products">
+              <li className="flex items-center gap-1 hover:text-[#00a2ff] cursor-pointer">
+                Product <IoIosArrowForward className="text-xs mt-1" />
+              </li>
+            </Link>
+
             <li className="flex items-center hover:text-[#00a2ff] cursor-pointer">
-              {" "}
               Pricing
             </li>
             <li className="flex items-center gap-1 hover:text-[#00a2ff] cursor-pointer">
@@ -74,19 +76,22 @@ const Navbar2 = () => {
                 Log in
               </button>
             </Link>
-            <button className="px-3 py-2 border-2 bg-[#00a2ff] border-[#00a2ff] text-white rounded-xl font-bold hover:bg-white hover:text-[#00a2ff]">
-              Sign up free
-            </button>
+            <Link to="/reg">
+              <button className="px-3 py-2 border-2 bg-[#00a2ff] border-[#00a2ff] text-white rounded-xl font-bold hover:bg-white hover:text-[#00a2ff]">
+                Register free
+              </button>
+            </Link>
           </div>
         )}
       </nav>
 
       {isSetNav && (
         <nav className=" lg:hidden pt-14 pl-5 absolute top-0 right-0 h-screen w-[70%] bg-white space-y-4">
-          <ul className="  space-y-4 font-bold text-2xl ">
-            <li className=" hover:text-[#00a2ff] cursor-pointer">Product</li>
+          <ul className="  space-y-4 font-bold text-2xl mb-6 ">
+            <Link to="/products">
+              <li className=" hover:text-[#00a2ff] cursor-pointer">Product</li>
+            </Link>
             <li className="flex items-center hover:text-[#00a2ff] cursor-pointer">
-              {" "}
               Pricing
             </li>
             <li className="  hover:text-[#00a2ff] cursor-pointer">Resources</li>
@@ -94,11 +99,22 @@ const Navbar2 = () => {
               Book a demo
             </li>
           </ul>
-          <Link to="/login">
-            <button className="  font-bold text-2xl  hover:text-[#00a2ff]">
-              Log in
-            </button>
-          </Link>
+          <ul className="space-y-5">
+            <li>
+              <Link to="/login">
+                <button className="  font-bold text-2xl  hover:text-[#00a2ff]">
+                  Log in
+                </button>
+              </Link>
+            </li>
+            <li>
+              <Link to="/reg">
+                <button className="  font-bold text-2xl  hover:text-[#00a2ff]">
+                  Register free
+                </button>
+              </Link>
+            </li>
+          </ul>
         </nav>
       )}
     </>

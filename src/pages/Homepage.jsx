@@ -43,7 +43,7 @@ function Homepage() {
         />
       </div>
 
-      <div className="flex flex-col md:flex-row max-w-[1000px] mx-auto">
+      <div className="flex overflow-scroll max-w-[1000px] mx-auto">
         <StaffCard
           name="Segun"
           position="Manager"

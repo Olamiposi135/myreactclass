@@ -1,23 +1,22 @@
 import React, { useState } from "react";
 import { FiEye } from "react-icons/fi";
 import { FiEyeOff } from "react-icons/fi";
-import { Link } from "react-router";
+import { Link, useNavigate } from "react-router";
 
 const Loginpage = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [isChecked, setIsChecked] = useState(false);
   const [error, setError] = useState(false);
-  const [success, setSuccess] = useState(false);
 
-  const Verify = (e) => {
-    e.preventDefault();
-    if ((email, password, isChecked)) {
-      setSuccess(true);
+  const navigate = useNavigate();
+
+  const Verify = () => {
+    if (email && password && isChecked) {
+      navigate("/");
     } else {
       setError(true);
     }
-    console.log(password);
   };
 
   const [showPassword, setShowPassword] = useState(false);
@@ -28,12 +27,6 @@ const Loginpage = () => {
   return (
     <div className="min-h-screen bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center px-5">
       <div className="bg-white p-8 rounded-2xl shadow-2xl w-full max-w-md">
-        {success && (
-          <h3 className="text-green-700 text-2xl">
-            Form Submitted Successfully !!!
-          </h3>
-        )}
-
         <h2 className="text-3xl font-bold text-center text-gray-800 mb-6">
           Login
         </h2>
