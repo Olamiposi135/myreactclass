@@ -53,9 +53,11 @@ const Navbar2 = () => {
               Resources
               <IoIosArrowForward className="text-xs mt-1" />
             </li>
-            <li className="flex items-center hover:text-[#00a2ff] cursor-pointer">
-              Book a demo
-            </li>
+            <Link to="/user">
+              <li className="flex items-center hover:text-[#00a2ff] cursor-pointer">
+                User
+              </li>
+            </Link>
           </ul>
         </div>
 
@@ -95,9 +97,11 @@ const Navbar2 = () => {
               Pricing
             </li>
             <li className="  hover:text-[#00a2ff] cursor-pointer">Resources</li>
-            <li className="flex items-center hover:text-[#00a2ff] cursor-pointer">
-              Book a demo
-            </li>
+            <Link to="/user">
+              <li className="flex items-center hover:text-[#00a2ff] cursor-pointer">
+                User
+              </li>
+            </Link>
           </ul>
           <ul className="space-y-5">
             <li>

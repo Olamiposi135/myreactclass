@@ -5,7 +5,7 @@ import ProductCard from "../component/ProductCard";
 
 const Products = () => {
   return (
-    <section className="h-screen bg-gradient-to-r from-green-500 via-blue-200 to-red-500">
+    <section className="h-fit bg-gradient-to-r from-green-500 via-blue-200 to-red-500 flex gap-3 items-center flex-wrap p-10">
       <ProductCard />
     </section>
   );
