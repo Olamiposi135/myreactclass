@@ -98,7 +98,7 @@ const Navbar2 = () => {
             </li>
             <li className="  hover:text-[#00a2ff] cursor-pointer">Resources</li>
             <Link to="/user">
-              <li className="flex items-center hover:text-[#00a2ff] cursor-pointer">
+              <li className="flex items-center hover:text-[#00a2ff] cursor-pointer ">
                 User
               </li>
             </Link>
