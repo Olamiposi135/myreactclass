@@ -1,17 +1,29 @@
+import React, { Suspense } from "react";
 import CardSection from "../component/CardSection";
 import Footer from "../component/Footer";
-import HeroSection from "../component/HeroSection";
+
 import LeaderCard from "../component/LeaderCard";
 
 import Navbar2 from "../component/Navbar2";
 import Percentage from "../component/Percentage";
 import StaffCard from "../component/StaffCard";
+import Loading from "../component/Loading";
+
+const Herosection = React.lazy(
+  () =>
+    new Promise((resolve) => {
+      setTimeout(() => {
+        resolve(import("../component/HeroSection"));
+      }, 3000);
+    })
+);
 
 function Homepage() {
   return (
     <div>
-      <Navbar2 />
-      <HeroSection />
+      <Suspense fallback={<Loading />}>
+        <Herosection />
+      </Suspense>
       <div className=" flex  max-w-[1000px] mx-auto ">
         <Percentage />
       </div>

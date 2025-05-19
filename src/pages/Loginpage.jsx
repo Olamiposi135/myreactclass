@@ -3,8 +3,9 @@ import React, { useState } from "react";
 import { FiEye } from "react-icons/fi";
 import { FiEyeOff } from "react-icons/fi";
 import { Link, useNavigate } from "react-router";
+import { useUser } from "../context/UserContext";
 
-const Loginpage = () => {
+const Loginpage = ({ setFirstName, setUserEmail }) => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [isChecked, setIsChecked] = useState(false);
@@ -13,6 +14,8 @@ const Loginpage = () => {
   const [loading, setLoading] = useState(false);
 
   const navigate = useNavigate();
+
+  const { setGender } = useUser();
 
   const Verify = async (e) => {
     try {
@@ -28,6 +31,9 @@ const Loginpage = () => {
       }, 5000);
 
       console.log(response);
+      setFirstName(response.data.firstName);
+      setUserEmail(response.data.email);
+      setGender(response.data.gender);
     } catch (error) {
       setError(true);
       console.error("Error during login:", error);
